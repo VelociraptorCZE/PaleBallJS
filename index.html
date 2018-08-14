@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8"/>
+   <title>PaleBallJS</title>
+   <style>
+   *{
+     overflow-x: hidden;
+     padding: 0;
+     margin: 0;
+     font-family: Segoe UI;
+     color: #fff;
+   }
+   body{
+     background: #002852;
+   }
+   canvas{
+     width: 100%;
+     background-color: #05adff;
+     background: linear-gradient(25deg, #05adff, #0185c5);
+   }
+   div{
+     margin: auto;
+     padding: 20px;
+     text-align: center;
+   }
+   small{
+     font-size: 0.5rem;
+   }
+   </style>
+</head>
+<body>
+  <canvas id = "gameCanvas" width = 1280 height = 600></canvas>
+  <div>
+    <h1>PaleBallJS</h1>
+    A tiny game with tiny size (~3.2 kB) written within one evening. :)
+    <h5>Have fun</h5>
+    <p><small>(c) Šimon Raichl, 2018</small></p>
+  </div>
+  <script src="game.js"></script>
+</body>
+</html>
